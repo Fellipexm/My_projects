@@ -1,0 +1,69 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Exemplo de dados de projeto
+    const projectsData = [
+        {
+            title: 'Lexicorm',
+            description: 'Desenvolvemos o projeto em grupo, com a participação de mais dois amigos: Pablo Henrique e Gabriel Gomes. Nosso cliente foi muito especial, o pessoal do curso Técnico em Enfermagem do Senac Minas Divinópolis. Criamos um software para busca de medicamentos, um Bulário eletrônico que torna a pesquisa de medicamentos mais fácil e eficaz. Desenvolvemos o software para duas plataformas: Mobile e Web. Na plataforma mobile, utilizamos as tecnologias React Native, Node.js e MySQL. Para a plataforma web, empregamos HTML, Java com o framework Spring Boot, Node.js e MySQL. Foi uma experiência inesquecível para todos nós, na qual conseguimos aplicar e solidificar ainda mais os nossos conhecimentos em desenvolvimento de softwares.',
+            link: 'https://lexicorm.vercel.app/',
+            image: 'https://media.licdn.com/dms/image/D4D22AQHORcHGk-dNYg/feedshare-shrink_2048_1536/0/1706052252725?e=1709769600&v=beta&t=Bq4mSz-3jzG005YcIKhkIUYCkFAIpb5XcJ_HCBljpLg'
+        },
+        {
+            title: 'Semáforo para cegos',
+            description: `O dispositivo possui interação comunicacional e sem fio com smartphones, com a finalidade de informar a situação do semáforo aos pedestres com deficiência visual.
+
+Utilizando recursos como tecnologia Arduino, relés e shields de comunicação Wi-Fi, juntamente com habilidades de prototipação, design tridimensional e fabricação por impressão 3D, a iniciativa não só melhora a acessibilidade para pessoas, como contribui para a segurança nas vias públicas. Além disso, fomenta a cultura maker e a inovação tecnológica.
+
+Destaca-se também sua relevância social, possibilitando um ambiente urbano mais inclusivo e acessível, alinhado aos princípios da equidade e acessibilidade para todos os cidadãos.
+
+[...] área do conhecimento, de característica interdisciplinar, que engloba produtos, recursos, metodologias, estratégias, práticas e serviços que objetivam promover a funcionalidade, relacionada à atividade e participação de pessoas com deficiência, incapacidades ou mobilidade reduzida, visando sua autonomia, independência, qualidade de vida e inclusão social (BRASIL, 2007, p. 3). BRASIL. Comitê de Ajudas Técnicas, Secretaria Especial dos Direitos Humanos da Presidência da República (CORDE/SEDH/PR), 2007).`,
+            link: '#',
+            image: 'https://i.postimg.cc/MZ4zJSxd/semafaro.jpg'
+        },
+        {
+            title: 'Lan House',
+            description: `Construímos uma Lan house do zero no curso de Ti.
+            Crimpamos todos os cabos RJ-45, fazendo o cabeamento estruturado usando os patch panels do rack e o switch.
+            Montamos, formatamos e configuramos as máquinas clientes.
+            Formatamos e configuramos o servidor que está dentro do rack com os serviços de http, ftp, dhcp e proxy.
+            Aproveitamos para jogar uma partida de CS em Lan para testar nossa rede.`,
+            link: '#',
+            image: 'https://media.licdn.com/dms/image/D4D22AQFziHqFLWAg2w/feedshare-shrink_800/0/1683327724847?e=1709769600&v=beta&t=1-4g0KJMbxlYtxHddpmkV5TEZC6TO0kwZyvsHpDRLB4'
+        },
+        {
+            title: 'News Letter ',
+            description: `Com o avanço da tecnologia, sempre repleta de novidades, na sala em que atualmente estudo, cursando TI, uma atividade foi proposta pelo nosso professor: a criação de uma Newsletter, atualizada mensalmente com as notícias mais impactantes no mundo da tecnologia. Iniciada em fevereiro de 2023, a Newsletter está disponível até o momento, com edições que vão de fevereiro a dezembro de 2023. Vale ressaltar que recentemente lançamos uma edição especial chamada "Especial Desenvolvimento", na qual apresentamos projetos de diversos times da nossa sala, envolvendo o desenvolvimento de vários softwares`,
+            link: 'https://network-news.vercel.app/',
+            image: 'https://media.istockphoto.com/id/1303742901/vector/email-marketing-message-concept.jpg?s=612x612&w=0&k=20&c=qQIuqm_xHVMMN-HWy7it-Mw62oNVppQe2ImmoJP499U=' 
+        }
+    ];
+
+    const projectsContainer = document.getElementById('projects');
+
+    // Preenche a seção de projetos com os dados
+    projectsData.forEach(project => {
+        const projectElement = document.createElement('div');
+        projectElement.classList.add('project');
+
+        const titleElement = document.createElement('h2');
+        titleElement.textContent = project.title;
+
+        const descriptionElement = document.createElement('p');
+        descriptionElement.textContent = project.description;
+
+        const imageElement = document.createElement('img');
+        imageElement.src = project.image;
+        imageElement.alt = project.title;
+
+        const linkElement = document.createElement('a');
+        linkElement.textContent = 'Ver site';
+        linkElement.href = project.link;
+        linkElement.target = '_blank';
+
+        projectElement.appendChild(titleElement);
+        projectElement.appendChild(descriptionElement);
+        projectElement.appendChild(imageElement);
+        projectElement.appendChild(linkElement);
+
+        projectsContainer.appendChild(projectElement);
+    });
+});
