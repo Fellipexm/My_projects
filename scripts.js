@@ -30,10 +30,17 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             image: 'https://media.licdn.com/dms/image/D4D22AQFziHqFLWAg2w/feedshare-shrink_800/0/1683327724847?e=1709769600&v=beta&t=1-4g0KJMbxlYtxHddpmkV5TEZC6TO0kwZyvsHpDRLB4'
         },
         {
-            title: 'News Letter ',
+            title: 'News Letter',
             description: `Com o avanço da tecnologia, sempre repleta de novidades, na sala em que atualmente estudo, cursando TI, uma atividade foi proposta pelo nosso professor: a criação de uma Newsletter, atualizada mensalmente com as notícias mais impactantes no mundo da tecnologia. Iniciada em fevereiro de 2023, a Newsletter está disponível até o momento, com edições que vão de fevereiro a dezembro de 2023. Vale ressaltar que recentemente lançamos uma edição especial chamada "Especial Desenvolvimento", na qual apresentamos projetos de diversos times da nossa sala, envolvendo o desenvolvimento de vários softwares`,
             link: 'https://network-news.vercel.app/',
             image: 'https://media.istockphoto.com/id/1303742901/vector/email-marketing-message-concept.jpg?s=612x612&w=0&k=20&c=qQIuqm_xHVMMN-HWy7it-Mw62oNVppQe2ImmoJP499U=' 
+        },
+        {
+            title: 'Site para E-commerce',
+            description: `
+            Recentemente, estive envolvido no desenvolvimento de uma aplicação web de e-commerce de jogos, inspirada em plataformas renomadas como Steam, Epic Games e Xbox. O projeto teve um prazo desafiador de cinco dias e abrangeu uma variedade de requisitos funcionais. Desde o cadastro de usuários até recursos avançados, como avaliações, sistema de badges e gerenciamento de conta. A plataforma é totalmente responsiva, hospedada no Vercel para o front-end e na Render para o back-end. Recomendo acessar o projeto aqui para uma experiência completa. (OBS: Se, ao tentar acessar, você não conseguir, pode ser que nosso sistema de back-end ou banco de dados, ambos online, estejam desligados.)`,
+            link: 'https://front-projetotecno.vercel.app/',
+            image: 'https://i.postimg.cc/YqTMGkfd/games.jpg' 
         }
     ];
 
