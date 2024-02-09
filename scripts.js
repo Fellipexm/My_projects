@@ -2,19 +2,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const toggleThemeButton = document.getElementById('toggle-theme-button');
     const temaClaroButton = document.getElementById('tema-claro');
     const projects = document.querySelectorAll('.project');
+    const imagemClaro = document.getElementById('claro');
+    const imagemEscuro = document.getElementById('imagem');
 
     function toggleTheme() {
         document.body.classList.toggle('dark-theme');
         projects.forEach(project => {
             project.classList.toggle('dark-theme-project');
         });
+
+        // Alternar entre as imagens quando o tema é alternado
+        imagemClaro.style.display = (document.body.classList.contains('dark-theme')) ? 'block' : 'none';
+        imagemEscuro.style.display = (document.body.classList.contains('dark-theme')) ? 'none' : 'block';
     }
 
     toggleThemeButton.addEventListener('click', toggleTheme);
     temaClaroButton.addEventListener('click', toggleTheme);
 
-     // Exemplo de dados de projeto
-     const projectsData = [
+    // Exemplo de dados de projeto
+    const projectsData = [
         {
             title: 'Lexicorm',
             description: 'Desenvolvemos o projeto em grupo, com a participação de mais dois amigos: Pablo Henrique e Gabriel Gomes. Nosso cliente foi muito especial, o pessoal do curso Técnico em Enfermagem do Senac Minas Divinópolis. Criamos um software para busca de medicamentos, um Bulário eletrônico que torna a pesquisa de medicamentos mais fácil e eficaz. Desenvolvemos o software para duas plataformas: Mobile e Web. Na plataforma mobile, utilizamos as tecnologias React Native, Node.js e MySQL. Para a plataforma web, empregamos HTML, Java com o framework Spring Boot, Node.js e MySQL. Foi uma experiência inesquecível para todos nós, na qual conseguimos aplicar e solidificar ainda mais os nossos conhecimentos em desenvolvimento de softwares.',

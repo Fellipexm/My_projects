@@ -61,13 +61,33 @@ header {
     left: 26px;
     top: 30px;
     width: 50px;
+    cursor: pointer;
 }
+
+#claro {
+    position: absolute;
+    left: 26px;
+    top: 30px;
+    width: 50px;
+    display: none; /* Inicialmente oculta a imagem */
+    cursor: pointer;
+}
+
+.dark-theme #imagem {
+    display: none; /* Oculta a imagem no tema escuro */
+}
+
+.dark-theme #claro {
+    display: block; /* Mostra a imagem no tema escuro */
+}
+
 
 #toggle-theme-button {
     position: absolute;
     right: 50px;
     top: 30px;
     width: 50px;
+    cursor: pointer;
 
 }
 #tema-claro {
@@ -75,6 +95,7 @@ header {
     right: 50px;
     top: 30px;
     width: 50px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
