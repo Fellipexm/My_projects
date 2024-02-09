@@ -52,25 +52,95 @@ header {
     font-weight: bold;
 }
 
-#pty  {
+#pty {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #imagem {
-     position: absolute;
-     left: 26px;
-     top: 30px;
-     width: 50px;
+    position: absolute;
+    left: 26px;
+    top: 30px;
+    width: 50px;
+}
+
+#toggle-theme-button {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 50px;
+
+}
+#tema-claro {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 50px;
 }
 
 @media (max-width: 768px) {
-     
     #imagem {
         position: absolute;
         left: 10px;
         top: 40px;
         width: 30px;
-   }
+    }
+
+    #toggle-theme-button {
+        position: absolute;
+        right: 5px;
+        top: 38px;
+        width: 40px;
+    
+    }
+
+    #tema-claro {
+        position: absolute;
+        right: 5px;
+        top: 38px;
+        width: 40px;
 
     }
+}
+
+.dark-theme {
+    background-color: black;
+    color: #fff;
+}
+
+.dark-theme .project {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .project h2 {
+    color: #fff;
+}
+
+.dark-theme .project p {
+    color: #ccc;
+}
+
+.dark-theme-header {
+    color:white;
+}
+
+#tema-claro {
+    display: none;
+}
+
+.dark-theme #tema-claro {
+    display: block;
+}
+
+.dark-theme #toggle-theme-button {
+    display: none;
+}
+
+.title {
+    color: black; /* Cor padrão para o título */
+}
+
+.dark-theme .title {
+    color: white; /* Cor do título no tema escuro */
+}
 
