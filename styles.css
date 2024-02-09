@@ -121,6 +121,14 @@ header {
         width: 40px;
 
     }
+    
+    #claro {
+        position: absolute;
+        left: 10px;
+        top: 40px;
+        width: 30px;
+
+    }
 }
 
 .dark-theme {
