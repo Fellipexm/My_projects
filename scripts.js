@@ -61,6 +61,13 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             Recentemente, estive envolvido no desenvolvimento de uma aplicação web de e-commerce de jogos, inspirada em plataformas renomadas como Steam, Epic Games e Xbox. O projeto teve um prazo desafiador de cinco dias e abrangeu uma variedade de requisitos funcionais. Desde o cadastro de usuários até recursos avançados, como avaliações, sistema de badges e gerenciamento de conta. A plataforma é totalmente responsiva, hospedada no Vercel para o front-end e na Render para o back-end. Recomendo acessar o projeto aqui para uma experiência completa. (OBS: Se, ao tentar acessar, você não conseguir, pode ser que nosso sistema de back-end ou banco de dados, ambos online, estejam desligados.)`,
             link: 'https://front-projetotecno.vercel.app/',
             image: 'https://i.postimg.cc/YqTMGkfd/games.jpg' 
+        },
+        {
+            title: 'Seu Tempo',
+            description: `
+            O "Seu Tempo" é uma aplicação web que fornece informações atualizadas sobre o clima de qualquer cidade. Com base em dados confiáveis, oferece detalhes precisos sobre temperatura e condições meteorológicas.              Os usuários podem buscar uma cidade específica e receber instantaneamente os detalhes climáticos. A interface simples utiliza ícones e emojis para representar as condições climáticas, tornando a experiência mais agradável e informativa.                          Uma função marcante é a personalização da aparência conforme o clima atual, tornando-a visualmente atraente e fácil de usar.Em suma, o "Seu Tempo" é uma ferramenta prática para planejar atividades ao ar livre, viagens ou simplesmente acompanhar as mudanças climáticas.`,
+            link: 'https://seutempoclima.vercel.app/',
+            image: 'https://i.postimg.cc/vBc6KPYm/clima.jpg' 
         }
     ];
     const projectsContainer = document.getElementById('projects');
