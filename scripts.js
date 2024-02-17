@@ -68,6 +68,13 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             O "Seu Tempo" é uma aplicação web que fornece informações atualizadas sobre o clima de qualquer cidade. Com base em dados confiáveis, oferece detalhes precisos sobre temperatura e condições meteorológicas.              Os usuários podem buscar uma cidade específica e receber instantaneamente os detalhes climáticos. A interface simples utiliza ícones e emojis para representar as condições climáticas, tornando a experiência mais agradável e informativa.                          Uma função marcante é a personalização da aparência conforme o clima atual, tornando-a visualmente atraente e fácil de usar.Em suma, o "Seu Tempo" é uma ferramenta prática para planejar atividades ao ar livre, viagens ou simplesmente acompanhar as mudanças climáticas.`,
             link: 'https://seutempoclima.vercel.app/',
             image: 'https://i.postimg.cc/vBc6KPYm/clima.jpg' 
+        },
+
+        {
+            title: 'Receita Times',
+            description: `O software é uma aplicação web para gerenciamento e compartilhamento de receitas culinárias. Ele permite aos usuários adicionar suas próprias receitas, bem como pesquisar por receitas existentes na…`,
+            link: 'https://receitatime.vercel.app/',
+            image: 'https://i.postimg.cc/85TbjNnZ/images-removebg-preview.png' 
         }
     ];
     const projectsContainer = document.getElementById('projects');
