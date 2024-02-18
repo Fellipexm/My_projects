@@ -72,7 +72,7 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
 
         {
             title: 'Receita Times',
-            description: `O software é uma aplicação web para gerenciamento e compartilhamento de receitas culinárias. Ele permite aos usuários adicionar suas próprias receitas, bem como pesquisar por receitas existentes na…`,
+            description: 'O software é uma aplicação web projetada para simplificar o gerenciamento e compartilhamento de receitas culinárias. Os usuários podem facilmente adicionar suas próprias criações gastronômicas e também explorar uma vasta seleção de receitas disponíveis na plataforma. Com recursos como categorização intuitiva, comentários interativos e avaliações, a comunidade pode interagir de forma dinâmica, oferecendo feedback e sugestões. Sua acessibilidade multiplataforma permite que os usuários desfrutem da experiência culinária em qualquer dispositivo, proporcionando praticidade e flexibilidade. Em suma, o software é uma ferramenta essencial para entusiastas da culinária que buscam inspiração, compartilhamento e colaboração',
             link: 'https://receitatime.vercel.app/',
             image: 'https://i.postimg.cc/85TbjNnZ/images-removebg-preview.png' 
         }
