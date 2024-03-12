@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Lexicorm',
             description: 'Desenvolvemos o projeto em grupo, com a participação de mais dois amigos: Pablo Henrique e Gabriel Gomes. Nosso cliente foi muito especial, o pessoal do curso Técnico em Enfermagem do Senac Minas Divinópolis. Criamos um software para busca de medicamentos, um Bulário eletrônico que torna a pesquisa de medicamentos mais fácil e eficaz. Desenvolvemos o software para duas plataformas: Mobile e Web. Na plataforma mobile, utilizamos as tecnologias React Native, Node.js e MySQL. Para a plataforma web, empregamos HTML, Java com o framework Spring Boot, Node.js e MySQL. Foi uma experiência inesquecível para todos nós, na qual conseguimos aplicar e solidificar ainda mais os nossos conhecimentos em desenvolvimento de softwares.',
             link: 'https://lexicorm.vercel.app/',
-            image: 'https://media.licdn.com/dms/image/D4D22AQHORcHGk-dNYg/feedshare-shrink_2048_1536/0/1706052252725?e=1709769600&v=beta&t=Bq4mSz-3jzG005YcIKhkIUYCkFAIpb5XcJ_HCBljpLg'
+            image: 'https://lexicorm.vercel.app/img/moebius.svg'
         },
         {
             title: 'Semáforo para cegos',
@@ -47,7 +47,7 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             Formatamos e configuramos o servidor que está dentro do rack com os serviços de http, ftp, dhcp e proxy.
             Aproveitamos para jogar uma partida de CS em Lan para testar nossa rede.`,
             link: '#',
-            image: 'https://media.licdn.com/dms/image/D4D22AQFziHqFLWAg2w/feedshare-shrink_800/0/1683327724847?e=1709769600&v=beta&t=1-4g0KJMbxlYtxHddpmkV5TEZC6TO0kwZyvsHpDRLB4'
+            image: 'https://media.licdn.com/dms/image/D4D22AQFziHqFLWAg2w/feedshare-shrink_800/0/1683327724847?e=1713398400&v=beta&t=sPuKbx8j2TsiKxTPZve1qBjVi-fbXOV92jyoGWeuwDQ'
         },
         {
             title: 'News Letter',
