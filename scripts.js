@@ -36,7 +36,7 @@ Utilizando recursos como tecnologia Arduino, relés e shields de comunicação W
 Destaca-se também sua relevância social, possibilitando um ambiente urbano mais inclusivo e acessível, alinhado aos princípios da equidade e acessibilidade para todos os cidadãos.
 
 [...] área do conhecimento, de característica interdisciplinar, que engloba produtos, recursos, metodologias, estratégias, práticas e serviços que objetivam promover a funcionalidade, relacionada à atividade e participação de pessoas com deficiência, incapacidades ou mobilidade reduzida, visando sua autonomia, independência, qualidade de vida e inclusão social (BRASIL, 2007, p. 3). BRASIL. Comitê de Ajudas Técnicas, Secretaria Especial dos Direitos Humanos da Presidência da República (CORDE/SEDH/PR), 2007).`,
-            link: 'https://files.fm/f/n539mv4wa4?fk=e9c7a15a',
+            link: 'https://drive.google.com/file/d/1HBDPOFrxuw5vW6TRnerTXF8nQUG4R8xc/view?usp=sharing',
             image: 'assets/semafaro.jpg'
         },
         {
@@ -46,7 +46,7 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             Montamos, formatamos e configuramos as máquinas clientes.
             Formatamos e configuramos o servidor que está dentro do rack com os serviços de http, ftp, dhcp e proxy.
             Aproveitamos para jogar uma partida de CS em Lan para testar nossa rede.`,
-            link: 'https://files.fm/u/n9nh8e3d9j?k=2d99c577',
+            link: 'https://drive.google.com/file/d/1BZNpFMff0jwWTk5eWf4ZMU1tbCn8-XsR/view?usp=sharing',
             image: 'assets/1683327724847.jfif'
         },
         {
