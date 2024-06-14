@@ -1,31 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
     const toggleThemeButton = document.getElementById('toggle-theme-button');
     const temaClaroButton = document.getElementById('tema-claro');
-    const projects = document.querySelectorAll('.project');
     const imagemClaro = document.getElementById('claro');
     const imagemEscuro = document.getElementById('imagem');
+    let lexicormImageElement = null;
 
-    function toggleTheme() {
-        document.body.classList.toggle('dark-theme');
-        projects.forEach(project => {
-            project.classList.toggle('dark-theme-project');
-        });
-
-        // Alternar entre as imagens quando o tema é alternado
-        imagemClaro.style.display = (document.body.classList.contains('dark-theme')) ? 'block' : 'none';
-        imagemEscuro.style.display = (document.body.classList.contains('dark-theme')) ? 'none' : 'block';
-    }
-
-    toggleThemeButton.addEventListener('click', toggleTheme);
-    temaClaroButton.addEventListener('click', toggleTheme);
-
-    // Exemplo de dados de projeto
     const projectsData = [
         {
             title: 'Lexicorm',
             description: 'Desenvolvemos o projeto em grupo, com a participação de mais dois amigos: Pablo Henrique e Gabriel Gomes. Nosso cliente foi muito especial, o pessoal do curso Técnico em Enfermagem do Senac Minas Divinópolis. Criamos um software para busca de medicamentos, um Bulário eletrônico que torna a pesquisa de medicamentos mais fácil e eficaz. Desenvolvemos o software para duas plataformas: Mobile e Web. Na plataforma mobile, utilizamos as tecnologias React Native, Node.js e MySQL. Para a plataforma web, empregamos HTML, Java com o framework Spring Boot, Node.js e MySQL. Foi uma experiência inesquecível para todos nós, na qual conseguimos aplicar e solidificar ainda mais os nossos conhecimentos em desenvolvimento de softwares.',
             link: 'https://lexicorm.vercel.app/',
-            image: 'assets/lex.png'
+            image: 'assets/lex.png',
+            darkImage: 'assets/lexbrab.png'
         },
         {
             title: 'Semáforo para cegos',
@@ -69,7 +55,6 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             link: 'https://seutempoclima.vercel.app/',
             image: 'assets/seutempo.jpg' 
         },
-
         {
             title: 'Receita Times',
             description: 'O software é uma aplicação web projetada para simplificar o gerenciamento e compartilhamento de receitas culinárias. Os usuários podem facilmente adicionar suas próprias criações gastronômicas e também explorar uma vasta seleção de receitas disponíveis na plataforma. Com recursos como categorização intuitiva, comentários interativos e avaliações, a comunidade pode interagir de forma dinâmica, oferecendo feedback e sugestões. Sua acessibilidade multiplataforma permite que os usuários desfrutem da experiência culinária em qualquer dispositivo, proporcionando praticidade e flexibilidade. Em suma, o software é uma ferramenta essencial para entusiastas da culinária que buscam inspiração, compartilhamento e colaboração',
@@ -77,6 +62,23 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
             image: 'assets/receitatimes.jpg' 
         }
     ];
+
+    function toggleTheme() {
+        document.body.classList.toggle('dark-theme');
+        
+        // Alternar entre as imagens quando o tema é alternado
+        imagemClaro.style.display = document.body.classList.contains('dark-theme') ? 'block' : 'none';
+        imagemEscuro.style.display = document.body.classList.contains('dark-theme') ? 'none' : 'block';
+
+        // Alternar a imagem do Lexicorm quando o tema é alternado
+        if (lexicormImageElement) {
+            lexicormImageElement.src = document.body.classList.contains('dark-theme') ? 'assets/lexbrab.png' : 'assets/lex.png';
+        }
+    }
+
+    toggleThemeButton.addEventListener('click', toggleTheme);
+    temaClaroButton.addEventListener('click', toggleTheme);
+
     const projectsContainer = document.getElementById('projects');
 
     projectsData.forEach(project => {
@@ -92,6 +94,10 @@ Destaca-se também sua relevância social, possibilitando um ambiente urbano mai
         const imageElement = document.createElement('img');
         imageElement.src = project.image;
         imageElement.alt = project.title;
+
+        if (project.title === 'Lexicorm') {
+            lexicormImageElement = imageElement;
+        }
 
         const linkElement = document.createElement('a');
         linkElement.textContent = 'Ver site';
