@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link: 'https://lexicorm.vercel.app/',
             image: 'assets/lex.png',
             darkImage: 'assets/lexbrab.png',
-            repo: 'https://github.com/gabrielgr200/Lexicorm.git',
+            repo: 'https://github.com/gabrielgr200/Lexicorm',
             linkText: 'Ver Site'
         },
         {
