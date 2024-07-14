@@ -69,10 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Martinho de Minas',
             description: 'Gostaria compartilhar o projeto incrível que nossa equipe de TI desenvolveu: Martinho de Minas! 🛒 Com o objetivo de facilitar a vida dos clientes, criamos um aplicativo que não apenas ajuda a encontrar corredores nos supermercados, mas também gera um mapa com a rota ideal. Além disso, o app informa promoções nos corredores que o cliente percorrerá, tornando a experiência de compras mais eficiente e econômica.Utilizamos tecnologias como React Native para a interface, Node para o backend, e Postgres como banco de dados.Tive a incrível oportunidade de atuar como gerente de projeto nesse desafio. Inicialmente, enfrentei desafios na gestão de tempo e distribuição de tarefas, mas ao longo do percurso, aprendi a como superar e contornar esses desafios.Levar o projeto ao fim não apenas me deixou orgulhoso, mas também resultou em clientes extremamente satisfeitos.Grato por fazer parte de uma equipe tão dedicada e talentosa! Foi bem legal ver como o Martinho de Minas pode transformar a experiência de compras para nossos usuários.',
-            link: 'assets/Martinho de Minas.mp4',
+            link: 'https://drive.google.com/drive/u/0/home',
             image: 'assets/Martinho de Minas.jpg',
-            repo: '#',
-            linkText: 'Ver Preview'
+            linkText: 'Dê uma Olhada'
 
 }
     ];
