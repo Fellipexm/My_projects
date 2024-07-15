@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Semáforo para cegos',
             description: 'O dispositivo foi desenvolvido para oferecer interação sem fio com smartphones, permitindo informar aos pedestres com deficiência visual sobre a situação do semáforo. Utilizando tecnologias como Arduino, relés e shields de comunicação Wi-Fi, além de habilidades em prototipação, design tridimensional e fabricação por impressão 3D, a iniciativa não apenas aumenta a acessibilidade para pessoas com deficiência visual, mas também contribui significativamente para a segurança nas vias públicas.O sistema funciona através de uma rede sem fio que conecta o dispositivo ao aplicativo no smartphone do usuário, fornecendo informações em tempo real sobre o status do semáforo. Isso permite que os pedestres saibam quando é seguro atravessar, melhorando sua autonomia e segurança nas travessias.Além dos benefícios diretos para a comunidade de pessoas com deficiência visual, o projeto também promove a cultura maker e a inovação tecnológica, incentivando o desenvolvimento de soluções criativas para desafios urbanos contemporâneos.',
-            link: 'https://drive.google.com/file/d/1HBDPOFrxuw5vW6TRnerTXF8nQUG4R8xc/view?usp=sharing',
+            link: 'assets/Videos/Semafaro.mp4',
             image: 'assets/semafaro.jpg',
             linkText: 'Dê uma Olhada'
         },
         {
             title: 'Lan House',
             description: 'Construímos uma Lan house completamente do zero como parte do nosso curso de TI. Começamos pelo processo de crimpagem de todos os cabos RJ-45, seguindo os padrões de cabeamento estruturado. Isso incluiu a utilização de patch panels no rack principal e a interconexão através de um switch central para garantir uma rede estável e organizada.Além disso, dedicamos tempo à montagem, formatação e configuração detalhada das máquinas clientes, assegurando que cada uma estivesse pronta para operar na rede de maneira eficiente. Para centralizar e otimizar os serviços oferecidos, formatamos e configuramos o servidor localizado no rack, configurando serviços essenciais como HTTP para acesso web, FTP para transferência de arquivos, DHCP para atribuição automática de endereços IP e um proxy para gerenciamento de acesso à internet.Como parte do teste final de desempenho e integridade da nossa infraestrutura, decidimos realizar uma partida de Counter-Strike em LAN. Isso nos permitiu não apenas verificar a conectividade e velocidade da rede, mas também validar a capacidade do servidor de suportar cargas de trabalho reais, garantindo uma experiência de jogo fluida e sem interrupções para todos os usuários.',
-            link: 'https://drive.google.com/file/d/1BZNpFMff0jwWTk5eWf4ZMU1tbCn8-XsR/view?usp=sharing',
+            link: 'assets/Videos/Lan House.mp4',
             image: 'assets/1683327724847.jfif',
             linkText: 'Dê uma Olhada'
         },
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Martinho de Minas  🛒 ',
             description: 'Gostaria compartilhar o projeto incrível que nossa equipe de TI desenvolveu: Martinho de Minas! 🛒 Com o objetivo de facilitar a vida dos clientes, criamos um aplicativo que não apenas ajuda a encontrar corredores nos supermercados, mas também gera um mapa com a rota ideal. Além disso, o app informa promoções nos corredores que o cliente percorrerá, tornando a experiência de compras mais eficiente e econômica.Utilizamos tecnologias como React Native para a interface, Node para o backend, e Postgres como banco de dados.Tive a incrível oportunidade de atuar como gerente de projeto nesse desafio. Inicialmente, enfrentei desafios na gestão de tempo e distribuição de tarefas, mas ao longo do percurso, aprendi a como superar e contornar esses desafios.Levar o projeto ao fim não apenas me deixou orgulhoso, mas também resultou em clientes extremamente satisfeitos.Grato por fazer parte de uma equipe tão dedicada e talentosa! Foi bem legal ver como o Martinho de Minas pode transformar a experiência de compras para nossos usuários.',
-            link: 'https://drive.google.com/file/d/1_zEwuYi8yIikbdS-KS_ByQlFN6MuDku2/view?usp=sharing',
+            link: 'assets/Videos/Martinho de Minas.mp4',
             image: 'assets/Martinho de Minas.jpg',
             linkText: 'Dê uma Olhada'
 
