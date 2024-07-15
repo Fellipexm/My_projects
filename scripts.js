@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Semáforo para cegos',
             description: 'O dispositivo foi desenvolvido para oferecer interação sem fio com smartphones, permitindo informar aos pedestres com deficiência visual sobre a situação do semáforo. Utilizando tecnologias como Arduino, relés e shields de comunicação Wi-Fi, além de habilidades em prototipação, design tridimensional e fabricação por impressão 3D, a iniciativa não apenas aumenta a acessibilidade para pessoas com deficiência visual, mas também contribui significativamente para a segurança nas vias públicas.O sistema funciona através de uma rede sem fio que conecta o dispositivo ao aplicativo no smartphone do usuário, fornecendo informações em tempo real sobre o status do semáforo. Isso permite que os pedestres saibam quando é seguro atravessar, melhorando sua autonomia e segurança nas travessias.Além dos benefícios diretos para a comunidade de pessoas com deficiência visual, o projeto também promove a cultura maker e a inovação tecnológica, incentivando o desenvolvimento de soluções criativas para desafios urbanos contemporâneos.',
-            link: 'assets/Videos/Semafaro.mp4',
+            link: 'https://drive.google.com/file/d/1HBDPOFrxuw5vW6TRnerTXF8nQUG4R8xc/view?usp=sharing',
             image: 'assets/semafaro.jpg',
             linkText: 'Dê uma Olhada'
         },
         {
             title: 'Lan House',
             description: 'Construímos uma Lan house completamente do zero como parte do nosso curso de TI. Começamos pelo processo de crimpagem de todos os cabos RJ-45, seguindo os padrões de cabeamento estruturado. Isso incluiu a utilização de patch panels no rack principal e a interconexão através de um switch central para garantir uma rede estável e organizada.Além disso, dedicamos tempo à montagem, formatação e configuração detalhada das máquinas clientes, assegurando que cada uma estivesse pronta para operar na rede de maneira eficiente. Para centralizar e otimizar os serviços oferecidos, formatamos e configuramos o servidor localizado no rack, configurando serviços essenciais como HTTP para acesso web, FTP para transferência de arquivos, DHCP para atribuição automática de endereços IP e um proxy para gerenciamento de acesso à internet.Como parte do teste final de desempenho e integridade da nossa infraestrutura, decidimos realizar uma partida de Counter-Strike em LAN. Isso nos permitiu não apenas verificar a conectividade e velocidade da rede, mas também validar a capacidade do servidor de suportar cargas de trabalho reais, garantindo uma experiência de jogo fluida e sem interrupções para todos os usuários.',
-            link: 'assets/Videos/Lan House.mp4',
+            link: 'https://drive.google.com/file/d/1BZNpFMff0jwWTk5eWf4ZMU1tbCn8-XsR/view?usp=sharing',
             image: 'assets/1683327724847.jfif',
             linkText: 'Dê uma Olhada'
         },
