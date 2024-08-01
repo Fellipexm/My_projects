@@ -25,8 +25,12 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
-    width: 300px;
+    flex: 1 1 calc(20% - 10px); /* Ajusta para três colunas */
+    box-sizing: border-box;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project h2 {
@@ -82,15 +86,14 @@ header {
     display: block; /* Mostra a imagem no tema escuro */
 }
 
-
 #toggle-theme-button {
     position: absolute;
     right: 50px;
     top: 30px;
     width: 50px;
     cursor: pointer;
-
 }
+
 #tema-claro {
     position: absolute;
     right: 50px;
@@ -112,7 +115,6 @@ header {
         right: 15px;
         top: 38px;
         width: 40px;
-    
     }
 
     #tema-claro {
@@ -120,15 +122,24 @@ header {
         right: 15px;
         top: 38px;
         width: 40px;
-
     }
-    
+
     #claro {
         position: absolute;
         left: 10px;
         top: 40px;
         width: 30px;
+    }
 
+    #projects {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .project {
+        width: calc(100% - 20px);
+        margin: 10px 0;
     }
 }
 
@@ -151,7 +162,7 @@ header {
 }
 
 .dark-theme-header {
-    color:white;
+    color: white;
 }
 
 #tema-claro {
@@ -173,4 +184,3 @@ header {
 .dark-theme .title {
     color: white; /* Cor do título no tema escuro */
 }
-
