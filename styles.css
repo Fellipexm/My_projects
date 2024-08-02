@@ -150,7 +150,7 @@ header {
     }
 
     .project {
-        flex: 1 1 calc(20% - 25px);
+        flex: 1 1 calc(20% - 40px);
     }
 
     #imagem {
