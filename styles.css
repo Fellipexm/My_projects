@@ -25,7 +25,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
-    flex: 1 1 calc(20% - 10px); /* Ajusta para três colunas */
+    flex: 1 1 calc(20% - 40px); /* Ajusta o espaço entre os cards */
     box-sizing: border-box;
     text-align: center;
     display: flex;
@@ -150,7 +150,7 @@ header {
     }
 
     .project {
-        flex: 1 1 calc(25% - 20px); /* Ajusta para quatro colunas em notebooks */
+        flex: 1 1 calc(30% - 20px); /* Ajusta o layout para três colunas */
     }
 
     #imagem {
