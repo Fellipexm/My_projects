@@ -146,25 +146,26 @@ header {
 /* Estilos para notebooks */
 @media (min-width: 769px) and (max-width: 1440px) {
     #projects {
-        padding: 20px;
+        padding: 20px; /* Adiciona um espaçamento interno ao contêiner #projects */
     }
 
     .project {
-        flex: 1 1 calc(25% - 20px); /* Ajusta o layout para três colunas */
+        flex: auto; /* Ajusta os itens para serem flexíveis, se ajustando ao espaço disponível */
     }
 
     #imagem {
-        width: 40px; /* Ajusta o tamanho da imagem */
+        width: 40px; /* Define a largura da imagem com o id #imagem */
     }
 
     #toggle-theme-button {
-        width: 40px; /* Ajusta o tamanho do botão */
+        width: 40px; /* Define a largura do botão com o id #toggle-theme-button */
     }
 
     #tema-claro {
-        width: 40px; /* Ajusta o tamanho do botão */
+        width: 40px; /* Define a largura do botão com o id #tema-claro */
     }
 }
+
 
 .dark-theme {
     background-color: black;
