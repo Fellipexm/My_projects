@@ -150,7 +150,7 @@ header {
     }
 
     .project {
-        flex: 1 1 calc(20% - 20px); /* Ajusta o layout para três colunas */
+        flex: 1 1 calc(25% - 20px); /* Ajusta o layout para três colunas */
     }
 
     #imagem {
