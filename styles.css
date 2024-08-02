@@ -150,7 +150,7 @@ header {
     }
 
     .project {
-        flex: auto; /* Ajusta os itens para serem flexíveis, se ajustando ao espaço disponível */
+        flex: 1 1 calc(40% - 20px);
     }
 
     #imagem {
