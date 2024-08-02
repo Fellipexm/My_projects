@@ -1,4 +1,3 @@
-
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
@@ -27,16 +26,59 @@ header {
     margin: 10px;
     padding: 20px;
     width: 300px;
-    flex: 1 1 calc(20% - 10px); /* Ajusta para três colunas */
-    box-sizing: border-box;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .project h2 {
-@ -82,15 +86,14 @@ header {
+    color: #333;
+}
+
+.project p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #666;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project a {
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: bold;
+}
+
+#pty {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#imagem {
+    position: absolute;
+    left: 26px;
+    top: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#claro {
+    position: absolute;
+    left: 26px;
+    top: 30px;
+    width: 50px;
+    display: none; /* Inicialmente oculta a imagem */
+    cursor: pointer;
+}
+
+.dark-theme #imagem {
+    display: none; /* Oculta a imagem no tema escuro */
+}
+
+.dark-theme #claro {
     display: block; /* Mostra a imagem no tema escuro */
 }
 
@@ -49,11 +91,24 @@ header {
     cursor: pointer;
 
 }
-
 #tema-claro {
     position: absolute;
     right: 50px;
-@ -112,7 +115,6 @@ header {
+    top: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    #imagem {
+        position: absolute;
+        left: 10px;
+        top: 40px;
+        width: 30px;
+    }
+
+    #toggle-theme-button {
+        position: absolute;
         right: 15px;
         top: 38px;
         width: 40px;
@@ -61,43 +116,61 @@ header {
     }
 
     #tema-claro {
-@ -120,15 +122,24 @@ header {
+        position: absolute;
         right: 15px;
         top: 38px;
         width: 40px;
 
     }
     
-
     #claro {
         position: absolute;
         left: 10px;
         top: 40px;
         width: 30px;
-    }
 
-    #projects {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .project {
-        width: calc(100% - 20px);
-        margin: 10px 0;
     }
 }
 
-@ -151,7 +162,7 @@ header {
+.dark-theme {
+    background-color: black;
+    color: #fff;
+}
+
+.dark-theme .project {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .project h2 {
+    color: #fff;
+}
+
+.dark-theme .project p {
+    color: #ccc;
 }
 
 .dark-theme-header {
     color:white;
-    color: white;
 }
 
 #tema-claro {
-@ -173,4 +184,3 @@ header {
+    display: none;
+}
+
+.dark-theme #tema-claro {
+    display: block;
+}
+
+.dark-theme #toggle-theme-button {
+    display: none;
+}
+
+.title {
+    color: black; /* Cor padrão para o título */
+}
+
 .dark-theme .title {
     color: white; /* Cor do título no tema escuro */
 }
+
