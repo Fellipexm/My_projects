@@ -143,6 +143,29 @@ header {
     }
 }
 
+/* Estilos para notebooks */
+@media (min-width: 769px) and (max-width: 1440px) {
+    #projects {
+        padding: 20px;
+    }
+
+    .project {
+        flex: 1 1 calc(25% - 20px); /* Ajusta para quatro colunas em notebooks */
+    }
+
+    #imagem {
+        width: 40px; /* Ajusta o tamanho da imagem */
+    }
+
+    #toggle-theme-button {
+        width: 40px; /* Ajusta o tamanho do botão */
+    }
+
+    #tema-claro {
+        width: 40px; /* Ajusta o tamanho do botão */
+    }
+}
+
 .dark-theme {
     background-color: black;
     color: #fff;
