@@ -1,3 +1,4 @@
+/* Estilos Gerais */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
@@ -102,71 +103,6 @@ header {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    #imagem {
-        position: absolute;
-        left: 10px;
-        top: 40px;
-        width: 30px;
-    }
-
-    #toggle-theme-button {
-        position: absolute;
-        right: 15px;
-        top: 38px;
-        width: 40px;
-    }
-
-    #tema-claro {
-        position: absolute;
-        right: 15px;
-        top: 38px;
-        width: 40px;
-    }
-
-    #claro {
-        position: absolute;
-        left: 10px;
-        top: 40px;
-        width: 30px;
-    }
-
-    #projects {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .project {
-        width: calc(100% - 20px);
-        margin: 10px 0;
-    }
-}
-
-/* Estilos para notebooks */
-@media (min-width: 769px) and (max-width: 1440px) {
-    #projects {
-        padding: 20px; /* Adiciona um espaçamento interno ao contêiner #projects */
-    }
-
-    .project {
-         flex: 1 1 calc(25% - 20px);
-    }
-
-    #imagem {
-        width: 40px; /* Define a largura da imagem com o id #imagem */
-    }
-
-    #toggle-theme-button {
-        width: 40px; /* Define a largura do botão com o id #toggle-theme-button */
-    }
-
-    #tema-claro {
-        width: 40px; /* Define a largura do botão com o id #tema-claro */
-    }
-}
-
-
 .dark-theme {
     background-color: black;
     color: #fff;
@@ -207,4 +143,64 @@ header {
 
 .dark-theme .title {
     color: white; /* Cor do título no tema escuro */
+}
+
+/* Responsividade para Monitores Pequenos (menor que 769px) */
+@media (max-width: 768px) {
+    #projects {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .project {
+        width: calc(100% - 20px);
+        margin: 10px 0;
+    }
+}
+
+/* Responsividade para Monitores Médios (769px a 1440px) */
+@media (min-width: 769px) and (max-width: 1440px) {
+    #projects {
+        padding: 20px;
+    }
+
+    .project {
+        flex: 1 1 calc(25% - 20px);
+    }
+
+    #imagem {
+        width: 40px;
+    }
+
+    #toggle-theme-button {
+        width: 40px;
+    }
+
+    #tema-claro {
+        width: 40px;
+    }
+}
+
+/* Responsividade para Monitores Grandes (maior que 1440px) */
+@media (min-width: 1441px) {
+    #projects {
+        padding: 40px; /* Adiciona mais espaçamento interno para monitores grandes */
+    }
+
+    .project {
+        flex: 1 1 calc(20% - 40px); /* Ajusta o tamanho dos cards para monitores grandes */
+    }
+
+    #imagem {
+        width: 50px; /* Define a largura da imagem para monitores grandes */
+    }
+
+    #toggle-theme-button {
+        width: 50px; /* Define a largura do botão para monitores grandes */
+    }
+
+    #tema-claro {
+        width: 50px; /* Define a largura do botão para monitores grandes */
+    }
 }
