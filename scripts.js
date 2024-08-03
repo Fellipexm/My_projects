@@ -71,6 +71,16 @@ document.addEventListener('DOMContentLoaded', function() {
             image: 'assets/Martinho de Minas.jpg',
             linkText: 'Dê uma Olhada'
 
+},
+
+     {
+    title: 'Salário Calculadora 💸',
+    description: 'Esta aplicação web é uma ferramenta completa e avançada desenvolvida para facilitar o cálculo do valor da hora trabalhada por indivíduos que desejam entender melhor sua remuneração. A Calculadora de Salário permite aos usuários inserir seu salário mensal e as horas que trabalham diariamente, fornecendo um cálculo preciso do valor da sua hora trabalhada. Este recurso é especialmente útil para trabalhadores, freelancers e profissionais autônomos que precisam avaliar o valor de seu tempo de trabalho e fazer comparações com outras oportunidades de emprego ou projetos.Além da funcionalidade de cálculo do valor da hora trabalhada, a aplicação possui uma robusta funcionalidade de conversão de moeda. Com o objetivo de atender a uma audiência global e ajudar na compreensão de salários em diferentes contextos econômicos, a ferramenta permite que os usuários convertam o valor calculado para até 40 moedas distintas. As taxas de câmbio são atualizadas em tempo real, garantindo que as conversões sejam precisas e refletam as condições econômicas atuais. Isso é particularmente útil para profissionais que trabalham em ambientes internacionais ou que estão considerando oportunidades de trabalho em diferentes países.',
+    link: 'https://salario-calculator.vercel.app/',
+    image: 'assets/salario.jpg',
+     repo: 'https://github.com/Fellipexm/Salario_calculator',
+    linkText: 'Ver Site'
+
 }
     ];
 
